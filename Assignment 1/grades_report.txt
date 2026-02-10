@@ -1,0 +1,11 @@
+Course: CMSC203 Computer Science I
+Student: Tran Le
+
+Projects (40%): average = 94.33
+Quizzes (30%): average = 78.75
+Exams (30%): average = 88.00
+
+Overall numeric average: 87.76
+Base letter grade: B
+Final letter grade: B
+Default configuration was used.
