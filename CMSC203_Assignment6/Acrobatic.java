@@ -1,0 +1,36 @@
+/*
+ * Class: CMSC203 
+ * Instructor: Grigoriy Grinberg
+ * Description: Acrobatic class extends from the abstract class Person.
+ * Due: 05/04/2026
+ * Platform/compiler: Eclipse
+ * I pledge that I have completed the programming  
+ * assignment independently. I have not copied the code 
+ * from a student or any source. I have not given my code 
+ * to any student.
+   Print your Name here: TRAN MINH CHAU LE
+*/
+
+//Acrobatic: Extends the abstract class Person
+//Override toString method
+
+//Concepts: 
+//	class, inheritance, polymorphism, overriding methods, aggregation
+package BobsCircus;
+
+public class Acrobatic extends Person {
+
+	public Acrobatic(String name, int age, int yearsWorked, String job, String imagePath) {
+		// constructor
+		// call super class Person
+		// inheritance
+		super(name, age, yearsWorked, job, imagePath);
+	}
+
+	@Override
+	public String toString() {
+		return "Acrobatic - " + super.toString();
+	}
+}
+
+//Author: Tran Minh Chau Le
